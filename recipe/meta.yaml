@@ -22,7 +22,7 @@ requirements:
     - python >=3.9
     - affine
     - earthengine-api >=0.1.374
-    - gcloud
+    - google-cloud-sdk
     - pyproj
     - xarray
 
