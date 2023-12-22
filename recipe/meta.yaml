@@ -24,6 +24,7 @@ requirements:
     - earthengine-api >=0.1.374
     - pyproj
     - xarray
+    - dask
 
 test:
   imports:
