@@ -12,14 +12,14 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.9
+    - python >=3.8
     - pip
   run:
-    - python >=3.9
+    - python >=3.8
     - affine
     - earthengine-api >=0.1.374
     - pyproj
