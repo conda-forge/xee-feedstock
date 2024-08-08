@@ -1,5 +1,5 @@
 {% set name = "xee" %}
-{% set version = "0.0.14" %}
+{% set version = "0.0.15" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xee-{{ version }}.tar.gz
-  sha256: 1f61ca574963d4874068877c01149fa915229439fde4ebf7f3f42338f148847b
+  sha256: ab6062ca0cdcc00569facb6ab385c4964cba25e357382d0fb6901c338d80f72a
 
 build:
   noarch: python
