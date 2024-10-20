@@ -1,5 +1,5 @@
 {% set name = "xee" %}
-{% set version = "0.0.15" %}
+{% set version = "0.0.19" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xee-{{ version }}.tar.gz
-  sha256: ab6062ca0cdcc00569facb6ab385c4964cba25e357382d0fb6901c338d80f72a
+  sha256: 87e3fef3da3a27fa3ba624fdc34661ed85226e2b45b4b86fd11d0eb4bd3542cf
 
 build:
   noarch: python
@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.9
     - pip
   run:
-    - python >=3.8
+    - python >=3.9
     - affine
     - earthengine-api >=0.1.374
     - pyproj
