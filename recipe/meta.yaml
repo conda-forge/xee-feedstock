@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python {{ python_min }}
+    - python >=3.11
     - pip
     - setuptools
     - setuptools_scm
   run:
-    - python >={{ python_min }}
+    - python >=3.11
     - affine
     - earthengine-api >=1.6.12
     - pyproj
@@ -36,7 +36,7 @@ test:
     - pip check
   requires:
     - pip
-    - python {{ python_min }}
+    - python >=3.11
 
 about:
   home: https://github.com/google/xee
